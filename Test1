@@ -1,0 +1,27 @@
+import turtle
+
+turtle.shape("turtle")
+turtle.color('blue')
+
+l = 100
+c = 90
+mas = 20
+
+for i in range(18):
+    
+    turtle.left(mas)
+    turtle.forward(l)
+    turtle.left(c)
+    turtle.forward(l)
+    turtle.left(c)
+    turtle.forward(l)
+    turtle.left(c)
+    turtle.forward(l)
+
+    mas = 110
+
+
+
+
+
+turtle.exitonclick()
